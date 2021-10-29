@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* 全体 */
+
+:root {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+body {
+    line-height: 1.6666667rem;
+    color: #f8ecba;
+    background-color: #cb7f69;
+}
+
+h1 {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+    color: #d7b63d;
+}
+
+a {
+    font-family: 'Knewave', cursive;
+    color: #f8ecba;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a:hover {
+    font-family: 'Knewave', cursive;
+    color: blue;
+}
+
+a:active {
+    font-family: 'Knewave', cursive;
+    color: green;
+}
+
+h2 {
+    font-family: 'Knewave', cursive;
+    font-size: 2.0rem;
+    margin:0 0 1rem;
+}
+
+h3 {
+    font-family: 'Knewave', cursive;
+    font-size: 1.5rem;
+    margin:0 0 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0 0 1rem;
+}
+
+img {
+    width: 70%;
+    border: none;
+}
+
+.container {
+    padding: 1rem 2rem;
+    max-width: 100%;
+}
+
+.monos-items img {
+    margin: 0 0 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-image: url(../images/kokeshi7.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 520px;
+}
+
+.header-nav li {
+    list-style: none;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+#shopping[class="container"] {
+    margin-left: 100px;
+}
+
+#monos[class="container"] {
+    margin-left: 100px;
+}
+
+#accessing[class="container"] {
+    margin-left: 100px;
+}
+
+.accessing-tizu iframe {
+    max-width: 70%;
+}
+
+footer {
+    background-color: #d7b63d;
+}
+
+/* タブレット・PC向け */
+@media(min-width:768px) {
+
+
+    #shopping {
+        text-align: center;
+        padding-right: 120px;
+    }
+
+    #monos {
+        text-align: center;
+    }
+
+    #monos[class="container"] {
+        max-width: 90%;
+        margin: 2rem auto;
+    }
+
+    .monos-grid {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #accessing {
+        text-align: center;
+    }
+
+    .accessing-tizu iframe {
+        max-width: 100%;
+    }
+
+}
+
+
