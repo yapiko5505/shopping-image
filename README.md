@@ -1,4 +1,5 @@
-## shopping-image
+shopping-image
+===
 
 架空の店舗のイメージサイトです。
 
