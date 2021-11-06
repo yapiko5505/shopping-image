@@ -1,8 +1,8 @@
-# shopping-image
+## shopping-image
 
 架空の店舗のイメージサイトです。
 
-・見本
+## 見本
 
 [webサイトを見る]https://yasuko-shopping-image.herokuapp.com/
 
